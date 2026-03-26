@@ -4,7 +4,7 @@
   "description": "Recipe application",
   "scripts": {
     "start": "parcel starter/index.html",
-    "build": "npx parcel build starter/index.html --dist-dir ./dist"
+    "build": "parcel build starter/index.html --dist-dir dist --public-url ./"
   },
   "author": "Syed Saied",
   "license": "ISC",
