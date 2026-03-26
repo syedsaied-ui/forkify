@@ -2342,7 +2342,6 @@ var _iconsSvg = require("url:../../img/icons.svg");
 var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
 var _fracty = require("fracty");
 var _fractyDefault = parcelHelpers.interopDefault(_fracty);
-console.log((0, _fractyDefault.default));
 class RecipeView extends (0, _viewJsDefault.default) {
     _parentElement = document.querySelector(".recipe");
     _errorMessage = "We could not find that recipe. Please try another one!";
@@ -2543,6 +2542,7 @@ class View {
     }
 }
 exports.default = View;
+console.log((0, _iconsSvgDefault.default));
 
 },{"url:../../img/icons.svg":"apwnT","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"apwnT":[function(require,module,exports,__globalThis) {
 module.exports = module.bundle.resolve("icons.3eb43249.svg") + "?" + Date.now();

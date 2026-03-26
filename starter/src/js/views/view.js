@@ -99,3 +99,5 @@ export default class View {
     this._parentElement.insertAdjacentHTML("afterbegin", markup);
   }
 }
+
+console.log(icons);
