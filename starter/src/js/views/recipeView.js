@@ -2,7 +2,6 @@ import view from "./view.js";
 
 import icons from "url:../../img/icons.svg";
 import frac from "fracty";
-console.log(frac);
 
 class RecipeView extends view {
   _parentElement = document.querySelector(".recipe");
