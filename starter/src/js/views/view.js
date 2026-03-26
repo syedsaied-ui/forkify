@@ -1,4 +1,4 @@
-import icons from "url:../../img/icons.svg";
+import icons from "new URL('../../img/icons.svg', import.meta.url)";
 
 export default class View {
   _data;
