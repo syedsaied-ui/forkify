@@ -2464,7 +2464,7 @@ class RecipeView extends (0, _viewJsDefault.default) {
 }
 exports.default = new RecipeView();
 
-},{"./view.js":"eFPgt","fracty":"gsPKI","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","url:../../img/icons.svg":"apwnT"}],"eFPgt":[function(require,module,exports,__globalThis) {
+},{"./view.js":"eFPgt","url:../../img/icons.svg":"apwnT","fracty":"gsPKI","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"eFPgt":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _iconsSvg = require("url:../../img/icons.svg");
@@ -2544,7 +2544,7 @@ class View {
 exports.default = View;
 console.log((0, _iconsSvgDefault.default));
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","url:../../img/icons.svg":"apwnT"}],"apwnT":[function(require,module,exports,__globalThis) {
+},{"url:../../img/icons.svg":"apwnT","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"apwnT":[function(require,module,exports,__globalThis) {
 module.exports = module.bundle.resolve("icons.3eb43249.svg") + "?" + Date.now();
 
 },{}],"gsPKI":[function(require,module,exports,__globalThis) {
