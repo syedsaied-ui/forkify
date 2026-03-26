@@ -2379,14 +2379,14 @@ class RecipeView extends (0, _viewJsDefault.default) {
         <div class="recipe__details">
           <div class="recipe__info">
             <svg class="recipe__info-icon">
-              <use href="${0, _iconsSvgDefault.default}#icon-clock"></use>
+              <use xlink:href="${0, _iconsSvgDefault.default}#icon-clock"></use>
             </svg>
             <span class="recipe__info-data recipe__info-data--minutes">${this._data.cookingTime}</span>
             <span class="recipe__info-text">minutes</span>
           </div>
           <div class="recipe__info">
             <svg class="recipe__info-icon">
-              <use href="${0, _iconsSvgDefault.default}#icon-users"></use>
+              <use xlink:href="${0, _iconsSvgDefault.default}#icon-users"></use>
             </svg>
             <span class="recipe__info-data recipe__info-data--people">${this._data.servings}</span>
             <span class="recipe__info-text">servings</span>
@@ -2394,12 +2394,12 @@ class RecipeView extends (0, _viewJsDefault.default) {
             <div class="recipe__info-buttons">
               <button class="btn--tiny btn--update-servings" data-update-to="${this._data.servings - 1}">
                 <svg>
-                  <use href="${0, _iconsSvgDefault.default}#icon-minus-circle"></use>
+                  <use xlink:href="${0, _iconsSvgDefault.default}#icon-minus-circle"></use>
                 </svg>
               </button>
               <button class="btn--tiny btn--update-servings" data-update-to="${this._data.servings + 1}">
                 <svg>
-                  <use href="${0, _iconsSvgDefault.default}#icon-plus-circle"></use>
+                  <use xlink:href="${0, _iconsSvgDefault.default}#icon-plus-circle"></use>
                 </svg>
               </button>
             </div>
@@ -2407,12 +2407,12 @@ class RecipeView extends (0, _viewJsDefault.default) {
 
           <div class="recipe__user-generated ${this._data.key ? "" : "hidden"}">
             <svg>
-              <use href="${0, _iconsSvgDefault.default}#icon-user"></use>
+              <use xlink:href="${0, _iconsSvgDefault.default}#icon-user"></use>
             </svg>
           </div>
           <button class="btn--round btn--bookmark">
             <svg class="">
-              <use href="${0, _iconsSvgDefault.default}#icon-bookmark${this._data.bookmarked ? "-fill" : ""}"></use>
+              <use xlink:href="${0, _iconsSvgDefault.default}#icon-bookmark${this._data.bookmarked ? "-fill" : ""}"></use>
             </svg>
           </button>
         </div>
@@ -2433,12 +2433,12 @@ class RecipeView extends (0, _viewJsDefault.default) {
           </p>
           <a
             class="btn--small recipe__btn"
-            href="${this._data.sourceUrl}"
+            xlink:href="${this._data.sourceUrl}"
             target="_blank"
           >
             <span>Directions</span>
             <svg class="search__icon">
-              <use href="${0, _iconsSvgDefault.default}#icon-arrow-right"></use>
+              <use xlink:href="${0, _iconsSvgDefault.default}#icon-arrow-right"></use>
             </svg>
           </a>
         </div>`;
@@ -2447,7 +2447,7 @@ class RecipeView extends (0, _viewJsDefault.default) {
         return `
     <li class="recipe__ingredient">
       <svg class="recipe__icon">
-        <use href="${0, _iconsSvgDefault.default}#icon-check"></use>
+        <use xlink:href="${0, _iconsSvgDefault.default}#icon-check"></use>
       </svg>
 
       <div class="recipe__quantity">
@@ -2464,7 +2464,7 @@ class RecipeView extends (0, _viewJsDefault.default) {
 }
 exports.default = new RecipeView();
 
-},{"./view.js":"eFPgt","url:../../img/icons.svg":"apwnT","fracty":"gsPKI","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"eFPgt":[function(require,module,exports,__globalThis) {
+},{"./view.js":"eFPgt","fracty":"gsPKI","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","url:../../img/icons.svg":"apwnT"}],"eFPgt":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _iconsSvg = require("url:../../img/icons.svg");
@@ -2510,7 +2510,7 @@ class View {
         const markup = `
             <div class="spinner">
               <svg>
-                <use href="${(0, _iconsSvgDefault.default)}#icon-loader"></use>
+                <use xlink:href="${(0, _iconsSvgDefault.default)}#icon-loader"></use>
               </svg>
             </div>`;
         this._clear();
@@ -2520,7 +2520,7 @@ class View {
         const markup = ` <div class="error">
                 <div>
                   <svg>
-                    <use href="${(0, _iconsSvgDefault.default)}#icon-alert-triangle"></use>
+                    <use xlink:href="${(0, _iconsSvgDefault.default)}#icon-alert-triangle"></use>
                   </svg>
                 </div>
                 <p>${message}</p>
@@ -2532,7 +2532,7 @@ class View {
         const markup = ` <div class="message">
                 <div>
                   <svg>
-                    <use href="${(0, _iconsSvgDefault.default)}#icon-smile"></use>
+                    <use xlink:href="${(0, _iconsSvgDefault.default)}#icon-smile"></use>
                   </svg>
                 </div>
                 <p>${message}</p>
@@ -2544,7 +2544,7 @@ class View {
 exports.default = View;
 console.log((0, _iconsSvgDefault.default));
 
-},{"url:../../img/icons.svg":"apwnT","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"apwnT":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","url:../../img/icons.svg":"apwnT"}],"apwnT":[function(require,module,exports,__globalThis) {
 module.exports = module.bundle.resolve("icons.3eb43249.svg") + "?" + Date.now();
 
 },{}],"gsPKI":[function(require,module,exports,__globalThis) {
@@ -2706,7 +2706,7 @@ class PreviewView extends (0, _viewJsDefault.default) {
                 <p class="preview__publisher">${this._data.publisher}</p>
                 <div class="preview__user-generated ${this._data.key ? "" : "hidden"}">
                 <svg>
-                <use href="${0, _iconsSvgDefault.default}#icon-user"></use>
+                <use xlink:href="${0, _iconsSvgDefault.default}#icon-user"></use>
                 </svg>
               </div>
               </div>
@@ -2740,27 +2740,27 @@ class PaginationView extends (0, _viewJsDefault.default) {
         if (currPage === 1 && numPages > 1) return ` <button data-goto="${currPage + 1}" class="btn--inline pagination__btn--next">
             <span>Page ${currPage + 1}</span>
             <svg class="search__icon">
-              <use href="${0, _iconsSvgDefault.default}#icon-arrow-right"></use>
+              <use xlink:href="${0, _iconsSvgDefault.default}#icon-arrow-right"></use>
             </svg>
           </button>`;
         // Last page
         if (currPage === numPages && numPages > 1) return `<button data-goto="${currPage - 1}" class="btn--inline pagination__btn--prev">
             <svg class="search__icon">
-              <use href="${0, _iconsSvgDefault.default}#icon-arrow-left"></use>
+              <use xlink:href="${0, _iconsSvgDefault.default}#icon-arrow-left"></use>
             </svg>
             <span>Page ${currPage - 1}</span>
           </button>`;
         // Other page
         if (currPage < numPages) return `<button data-goto="${currPage - 1}" class="btn--inline pagination__btn--prev">
             <svg class="search__icon">
-              <use href="${0, _iconsSvgDefault.default}#icon-arrow-left"></use>
+              <use xlink:href="${0, _iconsSvgDefault.default}#icon-arrow-left"></use>
             </svg>
             <span>Page ${currPage - 1}</span>
           </button>
           <button data-goto="${currPage + 1}" class="btn--inline pagination__btn--next">
             <span>Page ${currPage + 1}</span>
             <svg class="search__icon">
-              <use href="${0, _iconsSvgDefault.default}#icon-arrow-right"></use>
+              <use xlink:href="${0, _iconsSvgDefault.default}#icon-arrow-right"></use>
             </svg>
           </button>
          `;
