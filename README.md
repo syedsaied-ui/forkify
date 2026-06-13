@@ -2,6 +2,10 @@
 
 A recipe application that allows users to search, bookmark, and upload recipes.
 
+## 🌐 Live Demo
+
+🔗 https://forkify-saied.netlify.app
+
 ## 🚀 Features
 - Search recipes
 - View detailed recipe information
