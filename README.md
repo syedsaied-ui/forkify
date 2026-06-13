@@ -57,4 +57,4 @@ http://localhost:1234
 
 ## 📌 Author
 
-Syed Muhammad Saied
+**Syed Muhammad Saied**
